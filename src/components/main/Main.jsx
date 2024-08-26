@@ -1,9 +1,7 @@
+import Contacts from "./Contacts";
+
 function Main() {
-    return (
-        <div>
-            main
-        </div>
-    )
+  return <Contacts />;
 }
 
-export default Main
+export default Main;
