@@ -1,7 +1,13 @@
+import ContactForm from "./ContactForm";
 import Contacts from "./Contacts";
 
 function Main() {
-  return <Contacts />;
+  return (
+    <>
+      <Contacts />
+      <ContactForm />
+    </>
+  );
 }
 
 export default Main;

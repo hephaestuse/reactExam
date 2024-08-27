@@ -62,3 +62,29 @@ h6 {
 #__next {
   isolation: isolate;
 }
+.customFooterPBulet {
+  position: relative;
+}
+.customFooterPBulet::before {
+  content: url(../public/tools/Pbulet.svg);
+  position: absolute;
+  right: 0;
+  height: 100%;
+}
+.customFooterHBulet {
+  position: relative;
+}
+.customFooterHBulet::before {
+  content: url(../public/tools/titleBulet.svg);
+  position: absolute;
+  right: 0;
+  height: 100%;
+}
+.customFooterLiBulet {
+  position: relative;
+}
+.customFooterLiBulet::before {
+  content: url(../public/tools/liBulet.svg);
+  position: absolute;
+  right: 0;
+}
